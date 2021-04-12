@@ -55,7 +55,6 @@ class _HomePageState extends State<HomePage> {
                   // ),
                 ),
                 Expanded(
-
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Image(
@@ -116,8 +115,15 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text('Items', style: TextStyle(color: Colors.white),),
-              decoration: BoxDecoration(color: Colors.black45),
+              child: Text(
+                'Items',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 26.0),
+              ),
+              decoration: BoxDecoration(color: Colors.lightBlueAccent),
             ),
             ListTile(
               title: Text('First page'),
