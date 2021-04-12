@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text('Items'),
+              child: Text('Items', style: TextStyle(),),
               decoration: BoxDecoration(color: Colors.black45),
             ),
             ListTile(
