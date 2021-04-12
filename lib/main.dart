@@ -12,9 +12,9 @@ class ConstFlutter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light().copyWith(
-        primaryColor: Color(0xFF0A0E20),
-        scaffoldBackgroundColor: Color(0xFF0A0E30),
+      theme: ThemeData(
+        primaryColor: Colors.lightBlueAccent,
+        scaffoldBackgroundColor: Color(0xFF87CEFA),
       ),
       title: appTitle,
       home: HomePage(title: appTitle),
