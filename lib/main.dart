@@ -108,6 +108,24 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
+          Expanded(
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: UiParts(
+                    colors: lColor,
+                    // cardChild: IconContetn,
+                  ),
+                ),
+                Expanded(
+                  child: UiParts(
+                    colors: lColor,
+                    // cardChild: IconContetn,
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
       drawer: Drawer(
